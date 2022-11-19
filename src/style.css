@@ -10,11 +10,15 @@ html {
 }
 
 .nav-icon {
-    font-size: 80px;
+    font-size: 60px;
+    color: #61DAFB;
+    position: absolute;
+    top: 1rem;
+    left: 1.5rem;
 }
 
 .bgimg {
-    background-image: url('https://res.cloudinary.com/eren-joni/image/upload/v1668640112/Joni/Nathon/IT%20Dev/port14_ecfsha.jpg');
+    background-image: url('../public/folio.jpg');
     height: 100%;
     background-position: center;
     background-size: cover;
@@ -24,16 +28,11 @@ html {
     font-size: 25px;
 }
 
-.topleft {
-    position: absolute;
-    top: 0;
-    left: 16px;
-}
 
 .bottomleft {
     position: absolute;
-    bottom: 0;
-    left: 16px;
+    bottom: 1rem;
+    left: 1.5rem;
 }
 
 .middle {
